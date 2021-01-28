@@ -1,0 +1,154 @@
+:root {
+  --dark-color: #15226c;
+  --main-color: #448ef6;
+  --sub-color: #75c2f6;
+  --back-color: #c2e9ff;
+  --accent-color: #65daf7;
+  --point-color: #ffe981;
+}
+
+body {
+  font-family: "Song Myung", serif;
+  background-color: var(--back-color);
+}
+
+.file-upload {
+  background-color: #ffffff;
+  width: 450px;
+  height: 520px;
+  margin: 0px auto 50px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  height: 350px;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap {
+  border: 1px dashed #75c2f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 350px;
+  height: 350px;
+  margin: 0px;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #75c2f6;
+  border: 2px dashed #75c2f6;
+}
+
+.image-title-wrap {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #1a508b;
+  padding: 60px 0;
+  margin: 0;
+}
+
+.file-upload-image {
+  max-height: 200px;
+  max-width: 200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.remove-image {
+  width: 150px;
+  margin: 0;
+  color: #fff;
+  background: var(--sub-color);
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  border-bottom: 4px solid var(--main-color);
+  transition: all 0.2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.remove-image:hover {
+  color: var(--main-color);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.remove-image:active {
+  border: 0;
+  transition: all 0.2s ease;
+}
+
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navText {
+  padding: 10px 30px;
+}
+.navText:link {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+.navText:visited {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+.section {
+  margin: 5rem;
+  text-align: center;
+}
+
+#mainHead {
+  padding: 1rem;
+}
+
+.addthis_inline_share_toolbox_c0o8 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#id_img {
+  width: 280px;
+  height: 200px;
+  overflow: hidden;
+  margin-top: -40px;
+  margin-bottom: -15px;
+}
+
+.result-messege {
+  font-size: 2.5rem;
+}
