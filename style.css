@@ -152,3 +152,20 @@ body {
 .result-messege {
   font-size: 2.5rem;
 }
+
+@media only screen and (max-width: 476px) {
+  #mainHead {
+    width: 100%;
+  }
+
+  .section {
+    margin: 30px;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+  .file-upload {
+    width: 85%;
+  }
+}

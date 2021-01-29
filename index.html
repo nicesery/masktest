@@ -44,8 +44,8 @@
     <section class="section">
       <h1 id="mainHead">나에게 어울리는 마스크</h1>
       <h2>
-        코로나 시대의 필수 아이템 마스크! 인공지능에게 물어보는 나에게 잘
-        어울리는 마스크!
+        코로나 시대의 필수 아이템 마스크!
+        <br>이제는 인공지능에게 물어보자!
       </h2>
     </section>
 
@@ -139,6 +139,7 @@
         });
 
 
+        setTimeout(function() {
         switch (prediction[0].className) {
           case "토끼상":
             resultMessege = "입체형 마스크";
@@ -166,7 +167,7 @@
         }
         $(".result-messege").html(resultMessege);
         $("#id_img").attr("src",resultimg);
-
+    },3000)
     
         
 
